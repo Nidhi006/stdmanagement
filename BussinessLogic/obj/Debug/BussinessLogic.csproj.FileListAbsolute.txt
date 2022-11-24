@@ -1,0 +1,11 @@
+C:\Users\rsalo\source\repos\StudentManagement\BussinessLogic\bin\Debug\BussinessLogic.dll
+C:\Users\rsalo\source\repos\StudentManagement\BussinessLogic\bin\Debug\BussinessLogic.pdb
+C:\Users\rsalo\source\repos\StudentManagement\BussinessLogic\bin\Debug\DataAccess.dll
+C:\Users\rsalo\source\repos\StudentManagement\BussinessLogic\bin\Debug\DataAccess.pdb
+C:\Users\rsalo\source\repos\StudentManagement\BussinessLogic\obj\Debug\BussinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\rsalo\source\repos\StudentManagement\BussinessLogic\obj\Debug\BussinessLogic.csproj.CopyComplete
+C:\Users\rsalo\source\repos\StudentManagement\BussinessLogic\obj\Debug\BussinessLogic.dll
+C:\Users\rsalo\source\repos\StudentManagement\BussinessLogic\obj\Debug\BussinessLogic.pdb
+C:\Users\rsalo\source\repos\StudentManagement\BussinessLogic\bin\Debug\BussinessObjects.dll
+C:\Users\rsalo\source\repos\StudentManagement\BussinessLogic\bin\Debug\BussinessObjects.pdb
+C:\Users\rsalo\source\repos\StudentManagement\BussinessLogic\obj\Debug\BussinessLogic.csprojAssemblyReference.cache
