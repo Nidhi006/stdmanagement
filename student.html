@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 225px;
+            background-color: #f1f1f1;
+            position: fixed;
+            height: 100%;
+            overflow: auto;
+        }
+
+        li a {
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+            li a.active {
+                background-color: #04AA6D;
+                color: white;
+            }
+
+            li a:hover:not(.active) {
+                background-color: #555;
+                color: white;
+            }
+        .main {
+            margin-left: 250px;
+            margin-top: 50px;
+            position: fixed;
+            overflow: auto;
+            width: 50%;
+            padding: 50px;
+        }
+        .profile {
+            margin-left: 85%;
+            margin-top:50px;
+            display: inline-block;
+            height: 100%;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a class="active" href="">My Profile</a></li>
+        <li><a href="">Results</a></li>
+        <li><a href="">Logout</a></li>
+    </ul>
+
+    <div class="main">
+        jbgjrsnbkr
+        Try to scroll this area, and see how the sidenav sticks to the page
+        Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25% width. If you remove the margin, the sidenav will overlay/sit on top of this div.
+
+        Also notice that we have set overflow:auto to sidenav. This will add a scrollbar when the sidenav is too long (for example if it has over 50 links inside of it).
+    </div>
+    <div class="profile">
+        <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" width="150" height="150">
+    </div>
+</body>
+</html>

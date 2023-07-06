@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="StudentManagement.Site2" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+   
+    <link href="~/Styles/Style.css" type="text/css" rel="stylesheet" media="screen" runat="server"  />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="left">
+          <header>
+          <ul class="nav">  
+ <asp:Image ID="logo" runat="server" ImageAlign="Right" ImageUrl="https://d1igbv7ujk9jkv.cloudfront.net/company/images/logo-1_1584425258.png"  Width="7%" />
+        
+           <li>  <asp:ImageButton ID="h" runat="server" ImageUrl="https://www.kindpng.com/picc/m/175-1752441_home-png-home-png-android-home-icon-svg.png" PostBackUrl="~/Index.aspx" Height="59px" Width="55px" /></li>           
+        
+        </ul>   </header>
+    </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

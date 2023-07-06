@@ -1,0 +1,73 @@
+﻿ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+    align-content:center;
+    vertical-align:middle;
+    height: 45px;
+    width:100%;
+}
+
+    ul.nav li {
+        float: left;
+        width: 121px;
+        height: 44px;
+        margin-left: 9px;
+    }
+
+    ul.nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        height: 47px;
+        width: 112px;
+        margin-left: 9px;
+
+    }
+
+        
+
+    ul.nav li:active {
+        background-color: white;
+    }
+
+    .left a:hover {
+        background-color: #eba139;
+    }
+
+    .left a:active {
+        background-color: #6ba0b5;
+        text-decoration-color: blue;
+    }
+
+a {
+    text-decoration-line: none;
+    color: black;
+}
+
+#label1 {
+    font-family: 'Comic Sans MS';
+    font-weight:900;
+    color: teal;
+    font-size: 50px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+#Login{
+    border-radius:18px;
+    background-color:peru;
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+
+}
+#Signup {
+    border-radius: 18px;
+    background-color:peru;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
